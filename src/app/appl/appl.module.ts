@@ -23,6 +23,11 @@ import { ChardtemComponent } from './template/chardtem/chardtem.component';
 import { TablesdtemComponent } from './template/tablesdtem/tablesdtem.component';
 import { HomedtemComponent } from './template/homedtem/homedtem.component';
 import { DashomeComponent } from './dashome/dashome.component';
+import { ChatListComponent } from './chat-list/chat-list.component';
+import { ChatAnswerComponent } from './chat-answer/chat-answer.component';
+import { ChatDetailComponent } from './chat-detail/chat-detail.component';
+import { NotificationComponent } from './notification/notification.component';
+import { ResumenotificationComponent } from './resumenotification/resumenotification.component';
 
 
 @NgModule({
@@ -47,7 +52,12 @@ import { DashomeComponent } from './dashome/dashome.component';
     ChardtemComponent,
     TablesdtemComponent,
     HomedtemComponent,
-    DashomeComponent
+    DashomeComponent,
+    ChatListComponent,
+    ChatAnswerComponent,
+    ChatDetailComponent,
+    NotificationComponent,
+    ResumenotificationComponent
   ],
   imports: [
     CommonModule,

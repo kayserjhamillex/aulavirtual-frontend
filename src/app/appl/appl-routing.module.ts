@@ -5,8 +5,10 @@ import { ApplComponent } from './appl.component';
 import { TemaComponent } from './tema/tema.component';
 import { CoursesComponent } from './courses/courses.component';
 import { DashomeComponent } from './dashome/dashome.component';
+import { ChatListComponent } from './chat-list/chat-list.component';
 import { ProfileComponent } from './student/profile/profile.component';
 import { TemaDetailComponent } from './tema-detail/tema-detail.component';
+import { ChatAnswerComponent } from './chat-answer/chat-answer.component';
 import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { ProfileUpdateComponent } from './student/profile-update/profile-update.component';
 // components template
@@ -19,6 +21,7 @@ import { BordertemComponent } from './template/bordertem/bordertem.component';
 import { ButtontemComponent } from './template/buttontem/buttontem.component';
 import { TablesdtemComponent } from './template/tablesdtem/tablesdtem.component';
 import { AnimationtemComponent } from './template/animationtem/animationtem.component';
+import { NotificationComponent } from './notification/notification.component';
 
 const routes: Routes = [
   {
@@ -52,6 +55,18 @@ const routes: Routes = [
       {
         path: 'tema-detail/:id',
         component: TemaDetailComponent
+      },
+      {
+        path: 'notifications',
+        component: NotificationComponent,
+      },
+      {
+        path: 'chat',
+        component: ChatListComponent,
+      },
+      {
+        path: 'answerchat',
+        component: ChatAnswerComponent,
       },
       // aca van los templates
       {
