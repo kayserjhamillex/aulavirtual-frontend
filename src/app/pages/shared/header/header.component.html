@@ -1,0 +1,42 @@
+<header class="header">
+  <a [routerLink]="['/landing/home']" class="logo">
+    <i class="fab fa-dashcube"></i> Eduktic
+  </a>
+  <form action="" class="search-form">
+    <input type="search" placeholder="search here..." id="search-box">
+    <label for="search-box">
+      <i class="fas fa-search"></i>
+    </label>
+  </form>
+  <div class="icons">
+    <div id="menu-btn" >
+      <i class="fas fa-bars"></i>
+    </div>
+    <a [routerLink]="['/landing/home']">
+      <div id="login-btn">
+        <i class="fas fa-user"></i>
+      </div>
+    </a>
+  </div>
+</header>
+<!-- header section ends  -->
+<!-- closer btn  -->
+<div id="closer" >
+  <i class="fas fa-times"></i>
+</div>
+<!-- navbar  -->
+<nav class="navbar">
+  <a id="closervar1" [routerLink]="['/landing/home']">
+    Home
+  </a>
+  <a id="closervar2" [routerLink]="['/landing/about']">
+    About
+  </a>
+  <a id="closervar3" [routerLink]="['/landing/contact']">
+    Contact
+  </a>
+  <a id="closervar4" [routerLink]="['/landing/home']">
+    Login
+  </a>
+</nav>
+

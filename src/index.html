@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Aula Virtual
+    </title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="Aula Virtual is an open source">
+    <meta name="author" content="Anibal Jhamil Huaman Verastein, ....">
+    <meta name="keyword" content="landing page, dashboard, auth, etc">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQQ2J3JQXS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FQQ2J3JQXS');
+    </script>
+    <!-- letras -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e1601404f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <app-root></app-root>
+    <script>
+      window.onload = function() {
+        let closer = document.querySelector('#closer');
+        let closerruta1 = document.querySelector('#closervar1');
+        let closerruta2 = document.querySelector('#closervar2');
+        let closerruta3 = document.querySelector('#closervar3');
+        let closerruta4 = document.querySelector('#closervar4');
+        let navbar = document.querySelector('.navbar');
+        let menu = document.querySelector('#menu-btn');
+        let loginForm = document.querySelector('.login-form');
+        let searchForm = document.querySelector('.header .search-form');
+        closer.onclick = () =>{
+          closer.style.display = 'none';
+          navbar.classList.remove('active');
+          cart.classList.remove('active');
+          loginForm.classList.remove('active');
+        }
+        closerruta1.onclick = () =>{
+          closer.style.display = 'none';
+          navbar.classList.remove('active');
+          cart.classList.remove('active');
+          loginForm.classList.remove('active');
+        }
+        closerruta2.onclick = () =>{
+          closer.style.display = 'none';
+          navbar.classList.remove('active');
+          cart.classList.remove('active');
+          loginForm.classList.remove('active');
+        }
+        closerruta3.onclick = () =>{
+          closer.style.display = 'none';
+          navbar.classList.remove('active');
+          cart.classList.remove('active');
+          loginForm.classList.remove('active');
+        }
+        closerruta4.onclick = () =>{
+          closer.style.display = 'none';
+          navbar.classList.remove('active');
+          cart.classList.remove('active');
+          loginForm.classList.remove('active');
+        }
+        menu.onclick = () =>{
+            closer.style.display = 'block';
+            navbar.classList.toggle('active');
+        }
+        document.querySelector('#login-btn').onclick = () =>{
+            closer.style.display = 'block';
+            loginForm.classList.toggle('active');
+        }
+        document.querySelector('#search-btn').onclick = () =>{
+            searchForm.classList.toggle('active');
+        }
+      //  window.onscroll = () =>{
+      //    searchForm.classList.remove('active');
+      //  }
+      //  let slides = document.querySelectorAll('.home .slides-container .slide');
+      //  let index = 0;
+      //  function next(){
+      //    slides[index].classList.remove('active');
+      //    index = (index + 1) % slides.length;
+      //    slides[index].classList.add('active');
+      //  }
+      //  function prev(){
+      //    slides[index].classList.remove('active');
+      //    index = (index - 1 + slides.length) % slides.length;
+      //    slides[index].classList.add('active');
+      //  }
+     }
+    </script>
+  </body>
+</html>
+
+
+<!-- "src/assets/vendor/chart.js/Chart.min.js",
+"src/assets/js/demo/chart-area-demo.js",
+"src/assets/js/demo/chart-pie-demo.js",
+"src/assets/js/demo/chart-bar-demo.js", -->
